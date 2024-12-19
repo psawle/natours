@@ -12,10 +12,14 @@ Dark grren : #28b485;
   box-sizing: border-box;
 }
 
+html{
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.7;
   color: #777;
   padding: 30px;
@@ -31,12 +35,12 @@ body {
 
 .logo-box{
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 4rem;
+  left: 4rem;
 }
 
 .logo{
-  height: 35px;
+  height: 3rem;
 }
 
 .text-box{
@@ -57,9 +61,9 @@ body {
 
 .heading-primary-main{
   display: block;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 35px;
+  letter-spacing: 3.5rem;
 
   animation-name: moveInLeft;
   animation-duration: 3s;
@@ -67,7 +71,7 @@ body {
 
 .heading-primary-sub{
   display: block;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 17.4px;
 
@@ -78,7 +82,7 @@ body {
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
 
   80%{
@@ -94,7 +98,7 @@ body {
 @keyframes moveInRight{
   0%{
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10rem);
   }
 
   100%{
@@ -107,10 +111,10 @@ body {
 .btn:visited{
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 40px;
+  padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 40px;
-  margin-top: 20px;
+  border-radius: 4rem;
+  margin-top: 2rem;
   transition: all .2s;
 }
 
