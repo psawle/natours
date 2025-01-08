@@ -1,3 +1,5 @@
+@use '../abstracts/variables' as *;
+
 .section-about{
     background-color: $color-secondary-grey-1;
     margin-top: -20vh;
